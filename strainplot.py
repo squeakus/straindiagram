@@ -11,6 +11,7 @@ loadslope = []
 movingavr = []
 #Time,Extension,Displacement (Strain 1),Strain 1,Load
 #(sec),(mm),(mm),(mm/mm),(N)
+#this parses the file
 for line in infile:
     cnt += 1
     line = line.split(',')
